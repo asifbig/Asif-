@@ -1,0 +1,21 @@
+{
+  "name": "Asif-ChaChar",
+  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
+  "logo": "https://drive.google.com/file/d/1VufK5EUmo19-OmkpgbOiwoSGnNxEJMxR/view?usp=drivesdk",
+  "keywords": ["Asif-ChaChar"],
+  "success_url": "/",
+  "stack": "container",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
+}
